@@ -1,0 +1,560 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		9F0A57011E5385D300E04BCA /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F0A57001E5385D300E04BCA /* AppDelegate.swift */; };
+		9F0A57061E5385D300E04BCA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9F0A57041E5385D300E04BCA /* Main.storyboard */; };
+		9F0A57091E5385D300E04BCA /* Myra_Makes_2.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 9F0A57071E5385D300E04BCA /* Myra_Makes_2.xcdatamodeld */; };
+		9F0A570B1E5385D300E04BCA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9F0A570A1E5385D300E04BCA /* Assets.xcassets */; };
+		9F0A570E1E5385D300E04BCA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9F0A570C1E5385D300E04BCA /* LaunchScreen.storyboard */; };
+		9F0A57191E5385D400E04BCA /* Myra_Makes_2Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F0A57181E5385D400E04BCA /* Myra_Makes_2Tests.swift */; };
+		9F0A57241E5385D400E04BCA /* Myra_Makes_2UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F0A57231E5385D400E04BCA /* Myra_Makes_2UITests.swift */; };
+		9F3393271E6292B50018A95B /* HowToUseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F3393261E6292B50018A95B /* HowToUseViewController.swift */; };
+		9F3393291E6292FB0018A95B /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F3393281E6292FB0018A95B /* MainViewController.swift */; };
+		9F33932B1E6293690018A95B /* MyraViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F33932A1E6293690018A95B /* MyraViewController.swift */; };
+		9F33932D1E6293810018A95B /* SquirrelViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F33932C1E6293810018A95B /* SquirrelViewController.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		9F0A57151E5385D400E04BCA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 9F0A56F51E5385D300E04BCA /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 9F0A56FC1E5385D300E04BCA;
+			remoteInfo = Myra_Makes_2;
+		};
+		9F0A57201E5385D400E04BCA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 9F0A56F51E5385D300E04BCA /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 9F0A56FC1E5385D300E04BCA;
+			remoteInfo = Myra_Makes_2;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		9F0A56FD1E5385D300E04BCA /* Myra_Makes_2.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Myra_Makes_2.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		9F0A57001E5385D300E04BCA /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		9F0A57051E5385D300E04BCA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		9F0A57081E5385D300E04BCA /* Myra_Makes_2.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Myra_Makes_2.xcdatamodel; sourceTree = "<group>"; };
+		9F0A570A1E5385D300E04BCA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		9F0A570D1E5385D300E04BCA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		9F0A570F1E5385D400E04BCA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9F0A57141E5385D400E04BCA /* Myra_Makes_2Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Myra_Makes_2Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		9F0A57181E5385D400E04BCA /* Myra_Makes_2Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Myra_Makes_2Tests.swift; sourceTree = "<group>"; };
+		9F0A571A1E5385D400E04BCA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9F0A571F1E5385D400E04BCA /* Myra_Makes_2UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Myra_Makes_2UITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		9F0A57231E5385D400E04BCA /* Myra_Makes_2UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Myra_Makes_2UITests.swift; sourceTree = "<group>"; };
+		9F0A57251E5385D400E04BCA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9F3393261E6292B50018A95B /* HowToUseViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HowToUseViewController.swift; sourceTree = "<group>"; };
+		9F3393281E6292FB0018A95B /* MainViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
+		9F33932A1E6293690018A95B /* MyraViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MyraViewController.swift; sourceTree = "<group>"; };
+		9F33932C1E6293810018A95B /* SquirrelViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SquirrelViewController.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		9F0A56FA1E5385D300E04BCA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9F0A57111E5385D400E04BCA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9F0A571C1E5385D400E04BCA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		9F0A56F41E5385D300E04BCA = {
+			isa = PBXGroup;
+			children = (
+				9F0A56FF1E5385D300E04BCA /* Myra_Makes_2 */,
+				9F0A57171E5385D400E04BCA /* Myra_Makes_2Tests */,
+				9F0A57221E5385D400E04BCA /* Myra_Makes_2UITests */,
+				9F0A56FE1E5385D300E04BCA /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		9F0A56FE1E5385D300E04BCA /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				9F0A56FD1E5385D300E04BCA /* Myra_Makes_2.app */,
+				9F0A57141E5385D400E04BCA /* Myra_Makes_2Tests.xctest */,
+				9F0A571F1E5385D400E04BCA /* Myra_Makes_2UITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		9F0A56FF1E5385D300E04BCA /* Myra_Makes_2 */ = {
+			isa = PBXGroup;
+			children = (
+				9F0A57001E5385D300E04BCA /* AppDelegate.swift */,
+				9F0A57041E5385D300E04BCA /* Main.storyboard */,
+				9F33932A1E6293690018A95B /* MyraViewController.swift */,
+				9F33932C1E6293810018A95B /* SquirrelViewController.swift */,
+				9F3393281E6292FB0018A95B /* MainViewController.swift */,
+				9F3393261E6292B50018A95B /* HowToUseViewController.swift */,
+				9F0A570A1E5385D300E04BCA /* Assets.xcassets */,
+				9F0A570C1E5385D300E04BCA /* LaunchScreen.storyboard */,
+				9F0A570F1E5385D400E04BCA /* Info.plist */,
+				9F0A57071E5385D300E04BCA /* Myra_Makes_2.xcdatamodeld */,
+			);
+			path = Myra_Makes_2;
+			sourceTree = "<group>";
+		};
+		9F0A57171E5385D400E04BCA /* Myra_Makes_2Tests */ = {
+			isa = PBXGroup;
+			children = (
+				9F0A57181E5385D400E04BCA /* Myra_Makes_2Tests.swift */,
+				9F0A571A1E5385D400E04BCA /* Info.plist */,
+			);
+			path = Myra_Makes_2Tests;
+			sourceTree = "<group>";
+		};
+		9F0A57221E5385D400E04BCA /* Myra_Makes_2UITests */ = {
+			isa = PBXGroup;
+			children = (
+				9F0A57231E5385D400E04BCA /* Myra_Makes_2UITests.swift */,
+				9F0A57251E5385D400E04BCA /* Info.plist */,
+			);
+			path = Myra_Makes_2UITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		9F0A56FC1E5385D300E04BCA /* Myra_Makes_2 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9F0A57281E5385D400E04BCA /* Build configuration list for PBXNativeTarget "Myra_Makes_2" */;
+			buildPhases = (
+				9F0A56F91E5385D300E04BCA /* Sources */,
+				9F0A56FA1E5385D300E04BCA /* Frameworks */,
+				9F0A56FB1E5385D300E04BCA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Myra_Makes_2;
+			productName = Myra_Makes_2;
+			productReference = 9F0A56FD1E5385D300E04BCA /* Myra_Makes_2.app */;
+			productType = "com.apple.product-type.application";
+		};
+		9F0A57131E5385D400E04BCA /* Myra_Makes_2Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9F0A572B1E5385D400E04BCA /* Build configuration list for PBXNativeTarget "Myra_Makes_2Tests" */;
+			buildPhases = (
+				9F0A57101E5385D400E04BCA /* Sources */,
+				9F0A57111E5385D400E04BCA /* Frameworks */,
+				9F0A57121E5385D400E04BCA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				9F0A57161E5385D400E04BCA /* PBXTargetDependency */,
+			);
+			name = Myra_Makes_2Tests;
+			productName = Myra_Makes_2Tests;
+			productReference = 9F0A57141E5385D400E04BCA /* Myra_Makes_2Tests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		9F0A571E1E5385D400E04BCA /* Myra_Makes_2UITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9F0A572E1E5385D400E04BCA /* Build configuration list for PBXNativeTarget "Myra_Makes_2UITests" */;
+			buildPhases = (
+				9F0A571B1E5385D400E04BCA /* Sources */,
+				9F0A571C1E5385D400E04BCA /* Frameworks */,
+				9F0A571D1E5385D400E04BCA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				9F0A57211E5385D400E04BCA /* PBXTargetDependency */,
+			);
+			name = Myra_Makes_2UITests;
+			productName = Myra_Makes_2UITests;
+			productReference = 9F0A571F1E5385D400E04BCA /* Myra_Makes_2UITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		9F0A56F51E5385D300E04BCA /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0820;
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = FMT;
+				TargetAttributes = {
+					9F0A56FC1E5385D300E04BCA = {
+						CreatedOnToolsVersion = 8.2.1;
+						ProvisioningStyle = Automatic;
+					};
+					9F0A57131E5385D400E04BCA = {
+						CreatedOnToolsVersion = 8.2.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 9F0A56FC1E5385D300E04BCA;
+					};
+					9F0A571E1E5385D400E04BCA = {
+						CreatedOnToolsVersion = 8.2.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 9F0A56FC1E5385D300E04BCA;
+					};
+				};
+			};
+			buildConfigurationList = 9F0A56F81E5385D300E04BCA /* Build configuration list for PBXProject "Myra_Makes_2" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 9F0A56F41E5385D300E04BCA;
+			productRefGroup = 9F0A56FE1E5385D300E04BCA /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				9F0A56FC1E5385D300E04BCA /* Myra_Makes_2 */,
+				9F0A57131E5385D400E04BCA /* Myra_Makes_2Tests */,
+				9F0A571E1E5385D400E04BCA /* Myra_Makes_2UITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		9F0A56FB1E5385D300E04BCA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9F0A570E1E5385D300E04BCA /* LaunchScreen.storyboard in Resources */,
+				9F0A570B1E5385D300E04BCA /* Assets.xcassets in Resources */,
+				9F0A57061E5385D300E04BCA /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9F0A57121E5385D400E04BCA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9F0A571D1E5385D400E04BCA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		9F0A56F91E5385D300E04BCA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9F3393271E6292B50018A95B /* HowToUseViewController.swift in Sources */,
+				9F33932D1E6293810018A95B /* SquirrelViewController.swift in Sources */,
+				9F0A57011E5385D300E04BCA /* AppDelegate.swift in Sources */,
+				9F33932B1E6293690018A95B /* MyraViewController.swift in Sources */,
+				9F0A57091E5385D300E04BCA /* Myra_Makes_2.xcdatamodeld in Sources */,
+				9F3393291E6292FB0018A95B /* MainViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9F0A57101E5385D400E04BCA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9F0A57191E5385D400E04BCA /* Myra_Makes_2Tests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9F0A571B1E5385D400E04BCA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9F0A57241E5385D400E04BCA /* Myra_Makes_2UITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		9F0A57161E5385D400E04BCA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 9F0A56FC1E5385D300E04BCA /* Myra_Makes_2 */;
+			targetProxy = 9F0A57151E5385D400E04BCA /* PBXContainerItemProxy */;
+		};
+		9F0A57211E5385D400E04BCA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 9F0A56FC1E5385D300E04BCA /* Myra_Makes_2 */;
+			targetProxy = 9F0A57201E5385D400E04BCA /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		9F0A57041E5385D300E04BCA /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9F0A57051E5385D300E04BCA /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		9F0A570C1E5385D300E04BCA /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9F0A570D1E5385D300E04BCA /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		9F0A57261E5385D400E04BCA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		9F0A57271E5385D400E04BCA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		9F0A57291E5385D400E04BCA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = Myra_Makes_2/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.begginingiphone.Myra-Makes-2";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		9F0A572A1E5385D400E04BCA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = Myra_Makes_2/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.begginingiphone.Myra-Makes-2";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		9F0A572C1E5385D400E04BCA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = Myra_Makes_2Tests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.begginingiphone.Myra-Makes-2Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Myra_Makes_2.app/Myra_Makes_2";
+			};
+			name = Debug;
+		};
+		9F0A572D1E5385D400E04BCA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = Myra_Makes_2Tests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.begginingiphone.Myra-Makes-2Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Myra_Makes_2.app/Myra_Makes_2";
+			};
+			name = Release;
+		};
+		9F0A572F1E5385D400E04BCA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				INFOPLIST_FILE = Myra_Makes_2UITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.begginingiphone.Myra-Makes-2UITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = Myra_Makes_2;
+			};
+			name = Debug;
+		};
+		9F0A57301E5385D400E04BCA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				INFOPLIST_FILE = Myra_Makes_2UITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.begginingiphone.Myra-Makes-2UITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = Myra_Makes_2;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		9F0A56F81E5385D300E04BCA /* Build configuration list for PBXProject "Myra_Makes_2" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9F0A57261E5385D400E04BCA /* Debug */,
+				9F0A57271E5385D400E04BCA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9F0A57281E5385D400E04BCA /* Build configuration list for PBXNativeTarget "Myra_Makes_2" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9F0A57291E5385D400E04BCA /* Debug */,
+				9F0A572A1E5385D400E04BCA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9F0A572B1E5385D400E04BCA /* Build configuration list for PBXNativeTarget "Myra_Makes_2Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9F0A572C1E5385D400E04BCA /* Debug */,
+				9F0A572D1E5385D400E04BCA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9F0A572E1E5385D400E04BCA /* Build configuration list for PBXNativeTarget "Myra_Makes_2UITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9F0A572F1E5385D400E04BCA /* Debug */,
+				9F0A57301E5385D400E04BCA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		9F0A57071E5385D300E04BCA /* Myra_Makes_2.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				9F0A57081E5385D300E04BCA /* Myra_Makes_2.xcdatamodel */,
+			);
+			currentVersion = 9F0A57081E5385D300E04BCA /* Myra_Makes_2.xcdatamodel */;
+			path = Myra_Makes_2.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 9F0A56F51E5385D300E04BCA /* Project object */;
+}
